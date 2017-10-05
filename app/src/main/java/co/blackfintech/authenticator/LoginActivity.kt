@@ -45,7 +45,7 @@ class LoginActivity : AppCompatActivity() {
       }.show()
     }
 
-    if (email.equals("johndoe@mail.com") && password.equals("mojako123")) {
+    if (email.equals("gani@mail.com") && password.equals("gani")) {
 
       startActivity<MainActivity>()
       val store = SessionStore()
